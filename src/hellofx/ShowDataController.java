@@ -19,7 +19,6 @@ import java.util.logging.Level;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.logging.Logger;
 import javafx.scene.control.cell.PropertyValueFactory;
 import model.Person;
@@ -31,9 +30,6 @@ import model.Person;
  */
 public class ShowDataController implements Initializable {
 
-//    List<Customer> list = List.of(new Customer("sad", "sample", 12, "22-21-21", 30, 20, "21-23-23", "23-123-20", 123, "30days"),
-//            new Customer("sad", "sample", 12, "22-21-21", 30, 20, "21-23-23", "23-123-20", 123, "30days"),
-//            new Customer("sad", "sample", 12, "22-21-21", 30, 20, "21-23-23", "23-123-20", 123, "30days"));
     @FXML
     TableColumn<Person, String> id;
     @FXML
@@ -104,8 +100,7 @@ public class ShowDataController implements Initializable {
 //
 //        remarksCol.setCellValueFactory(new PropertyValueFactory<>("Remarks"));
 //
-//        table.getColumns().setAll(firstNameCol, addressCol, numberCol, birthdayCol, daysCol, accountCol, registrationCol, datereleaseCol, releasedbonusCol, remarksCol);
-//        table.setItems(tableShowData());
+
 
     }
 
